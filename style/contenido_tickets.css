@@ -1,0 +1,67 @@
+
+#sala{
+    margin-left: 10px;
+}
+
+#silla{
+    display: none;
+} 
+
+.pintarSilla input:checked + img{
+  background-color: red;
+}
+
+.pintarSilla img{
+    border: 2.7px solid black;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+.pintarSilla img:hover{
+    background-color: #CBBAAA;
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+
+#pantalla{
+    width: 99%;
+    height: 40px;
+    border: 4px solid black;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: silver;
+    margin-top: 50px;
+}
+
+.btn_comprar{
+        display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    margin-top: 30px;
+    background-image: url(../img/fondo_compra.png);
+    background-attachment: fixed;
+    height: 200px ;
+
+}
+
+#boton{
+    height: 50px;
+    margin-top: 60px;
+}
+
+#mostrarDatos{
+    display: none;
+    background-image: url(../img/fondo_form.png);
+    background-attachment: fixed;
+    height: 450px;
+}
+
+#resultado{
+    margin-top: -29px;
+    margin-left: 12px;
+}
+
+
+
+
